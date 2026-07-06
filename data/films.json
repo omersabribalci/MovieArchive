@@ -44,6 +44,51 @@
       "category": "thriller",
       "rating": 8.6,
       "watched": false
+    },
+    {
+      "id": 6,
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "director": "Quentin Tarantino",
+      "category": "crime",
+      "rating": 8.9,
+      "watched": true
+    },
+    {
+      "id": 7,
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "director": "Frank Darabont",
+      "category": "drama",
+      "rating": 9.3,
+      "watched": false
+    },
+    {
+      "id": 8,
+      "title": "Fight Club",
+      "year": 1999,
+      "director": "David Fincher",
+      "category": "drama",
+      "rating": 8.8,
+      "watched": true
+    },
+    {
+      "id": 9,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "director": "Christopher Nolan",
+      "category": "action",
+      "rating": 9.0,
+      "watched": true
+    },
+    {
+      "id": 10,
+      "title": "Forrest Gump",
+      "year": 1994,
+      "director": "Robert Zemeckis",
+      "category": "drama",
+      "rating": 8.8,
+      "watched": false
     }
   ]
 }
