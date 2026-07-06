@@ -1,0 +1,49 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "year": 2010,
+      "director": "Christopher Nolan",
+      "category": "sci-fi",
+      "rating": 8.8,
+      "watched": true
+    },
+    {
+      "id": 2,
+      "title": "The Matrix",
+      "year": 1999,
+      "director": "Lana & Lilly Wachowski",
+      "category": "sci-fi",
+      "rating": 8.7,
+      "watched": true
+    },
+    {
+      "id": 3,
+      "title": "Interstellar",
+      "year": 2014,
+      "director": "Christopher Nolan",
+      "category": "sci-fi",
+      "rating": 8.6,
+      "watched": false
+    },
+    {
+      "id": 4,
+      "title": "The Godfather",
+      "year": 1972,
+      "director": "Francis Ford Coppola",
+      "category": "crime",
+      "rating": 9.2,
+      "watched": true
+    },
+    {
+      "id": 5,
+      "title": "Parasite",
+      "year": 2019,
+      "director": "Bong Joon-ho",
+      "category": "thriller",
+      "rating": 8.6,
+      "watched": false
+    }
+  ]
+}
