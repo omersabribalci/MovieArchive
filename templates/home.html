@@ -5,17 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{title}}</title>
   </head>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0 auto;
+      font-family:
+        "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
+    header {
+      padding: 20px;
+      margin: 0 auto;
+    }
+    h1 {
+      padding: 20px;
+      margin: 0 auto;
+    }
+    h2 {
+      padding: 10px 0;
+      margin: 0 auto;
+    }
+    .wrapper {
+      padding: 20px;
+      margin: 0 auto;
+    }
+    ul {
+      padding: 10px 0;
+      margin: 0 auto;
+    }
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+    a:visited {
+      color: blue;
+    }
+  </style>
   <body>
+    <header>
+      <a href="/">Ana Sayfa</a>
+      <a href="/films">Tüm Filmler</a>
+    </header>
     <h1>{{title}}</h1>
-    <div>
-      <p>Toplam Film: <span>{{totalMovieCount}}</span></p>
+    <div class="wrapper">
+      <p>Toplam Film: <span>{{totalfilmCount}}</span></p>
       <p>
         İzlenen: <span>{{watchedCount}}</span> | İzlenmeyen:
         <span>{{notWatchedCount}}</span>
       </p>
-      <p>Ortalama Puan : ⭐ <span>{{averageRating}}</span></p>
+      <p>Ortalama Puan: ⭐ <span>{{averageRating}}</span></p>
+      <h2>Son Eklenenler:</h2>
+      {{lastAddedList}}
     </div>
-    <h2>Son Eklenenler</h2>
-    <ul></ul>
   </body>
 </html>

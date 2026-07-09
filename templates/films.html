@@ -3,9 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movies</title>
+    <title>{{title}}</title>
   </head>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0 auto;
+      font-family:
+        "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
+    header {
+      padding: 20px;
+      margin: 0 auto;
+    }
+    h1 {
+      padding: 20px;
+      margin: 0 auto;
+    }
+    .film-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      text-align: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .film {
+      padding: 5px;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+    img {
+      width: 100%;
+      height: 300px;
+      border-radius: 5px;
+      background-color: gainsboro;
+    }
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+    a:visited {
+      color: blue;
+    }
+  </style>
   <body>
-    <h1>Movies</h1>
+    <header>
+      <a href="/">Ana Sayfa</a>
+      <a href="/films">Tüm Filmler</a>
+    </header>
+    <h1>{{title}}</h1>
+
+    <div class="film-wrapper">{{content}}</div>
   </body>
 </html>

@@ -3,9 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movie Detail</title>
+    <title>{{title}}</title>
   </head>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0 auto;
+      font-family:
+        "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
+    header {
+      padding: 20px;
+      margin: 0 auto;
+    }
+    .wrapper {
+      padding: 20px;
+    }
+    img {
+      width: 300px;
+      height: 300px;
+      background-color: gainsboro;
+    }
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+    a:visited {
+      color: blue;
+    }
+    a:active {
+      border-radius: 10px;
+      background-color: bisque;
+    }
+  </style>
   <body>
-    <h1>Movie Detail</h1>
+    <header>
+      <a href="/">Ana Sayfa</a>
+      <a href="/films">Tüm Filmler</a>
+    </header>
+    <div class="wrapper">{{content}}</div>
   </body>
 </html>
