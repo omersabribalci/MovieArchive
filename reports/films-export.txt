@@ -1,0 +1,55 @@
+=== Film Arşivi Raporu ===
+Oluşturulma: 2026-07-09 14:00:32
+Toplam: 10 film
+================================
+
+1. Inception (2010)
+   Yönetmen: Christopher Nolan
+   Kategori: sci-fi | Puan: 8.8
+   Durum: ✓ İzlendi
+
+2. The Matrix (1999)
+   Yönetmen: Lana & Lilly Wachowski
+   Kategori: sci-fi | Puan: 8.7
+   Durum: ✓ İzlendi
+
+3. Interstellar (2014)
+   Yönetmen: Christopher Nolan
+   Kategori: sci-fi | Puan: 8.6
+   Durum: ✗ İzlenmedi
+
+4. The Godfather (1972)
+   Yönetmen: Francis Ford Coppola
+   Kategori: crime | Puan: 9.2
+   Durum: ✓ İzlendi
+
+5. Parasite (2019)
+   Yönetmen: Bong Joon-ho
+   Kategori: thriller | Puan: 8.6
+   Durum: ✗ İzlenmedi
+
+6. Pulp Fiction (1994)
+   Yönetmen: Quentin Tarantino
+   Kategori: crime | Puan: 8.9
+   Durum: ✓ İzlendi
+
+7. The Shawshank Redemption (1994)
+   Yönetmen: Frank Darabont
+   Kategori: drama | Puan: 9.3
+   Durum: ✗ İzlenmedi
+
+8. Fight Club (1999)
+   Yönetmen: David Fincher
+   Kategori: drama | Puan: 8.8
+   Durum: ✓ İzlendi
+
+9. The Dark Knight (2008)
+   Yönetmen: Christopher Nolan
+   Kategori: action | Puan: 9
+   Durum: ✓ İzlendi
+
+10. Forrest Gump (1994)
+   Yönetmen: Robert Zemeckis
+   Kategori: drama | Puan: 8.8
+   Durum: ✗ İzlenmedi
+
