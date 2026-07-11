@@ -15,7 +15,7 @@ const logMessage = async (logName, message) => {
       `[${now.toLocaleString("sv-SE")}] ${logName}: ${message}\n`,
     );
   } catch (error) {
-    console.log("Dosya yazılırken bir hata oluştu.", error);
+    console.log("Log yazılırken bir hata oluştu.", error);
   }
 };
 

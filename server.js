@@ -1,3 +1,5 @@
+// tekrar eden kodları tek seferde createServerdan sonra ortak mı oluşturmalı?
+
 const http = require("node:http");
 const path = require("node:path");
 const fs = require("node:fs");
@@ -5,42 +7,45 @@ const eventBus = require("./modules/eventBus.cjs");
 const { getAllFilms } = require("./modules/fileManager.cjs");
 const { logMessage } = require("./modules/logger.mjs");
 
-eventBus.on("filmViewed", async (title) => {
-  await logMessage("EVENT", `filmViewed - Film: ${title}`);
+eventBus.on("filmViewed", (title) => {
+  logMessage("EVENT", `filmViewed - Film: ${title}`);
 });
 
-eventBus.on("reportGenerated", async (fileName) => {
-  await logMessage("EVENT", `reportGenerated - File: ${fileName}`);
+eventBus.on("reportGenerated", (fileName) => {
+  logMessage("EVENT", `reportGenerated - File: ${fileName}`);
 });
 
 const server = http.createServer(async (req, res) => {
-  await logMessage("INFO", `${req.method} ${req.url}`);
+  logMessage("INFO", `${req.method} ${req.url}`);
+
+  // get all films
+  const data = await getAllFilms();
+  const films = data.films;
+
+  // calculate statistics
+  const totalfilmCount = films.length;
+  let watchedCount = 0;
+  let notWatchedCount = 0;
+  let totalRating = 0;
+
+  for (let film of films) {
+    totalRating += film.rating;
+    if (film.watched) {
+      watchedCount++;
+    } else {
+      notWatchedCount++;
+    }
+  }
+
+  let averageRating = (totalRating / totalfilmCount).toFixed(1);
 
   if (req.url === "/") {
-    const data = await getAllFilms();
-    const films = data.films;
     res.writeHead(200, { "Content-Type": "text/html" });
 
     const homePagePath = path.join(__dirname, "templates", "home.html");
     const title = "Film Arşivi Yönetimi";
-    const totalfilmCount = films.length;
 
-    let watchedCount = 0;
-    let notWatchedCount = 0;
-    let totalRating = 0;
-
-    for (let film of films) {
-      totalRating += film.rating;
-      if (film.watched) {
-        watchedCount++;
-      } else {
-        notWatchedCount++;
-      }
-    }
-
-    let averageRating = (totalRating / films.length).toFixed(1);
-
-    let lastThreeAdded = films.slice(films.length - 3);
+    let lastThreeAdded = films.slice(totalfilmCount - 3);
 
     let lastAddedList = `
     <ul>
@@ -50,7 +55,7 @@ const server = http.createServer(async (req, res) => {
 
     let html = fs.readFileSync(homePagePath, "utf-8");
 
-    html = html.replaceAll("{{title}}", title);
+    html = html.replace("{{title}}", title);
     html = html.replace("{{totalfilmCount}}", totalfilmCount);
     html = html.replace("{{watchedCount}}", watchedCount);
     html = html.replace("{{notWatchedCount}}", notWatchedCount);
@@ -59,8 +64,6 @@ const server = http.createServer(async (req, res) => {
 
     res.end(html);
   } else if (req.url === "/films") {
-    const data = await getAllFilms();
-    const films = data.films;
     res.writeHead(200, { "Content-Type": "text/html" });
 
     const filmsPagePath = path.join(__dirname, "templates", "films.html");
@@ -94,17 +97,13 @@ const server = http.createServer(async (req, res) => {
 
     let html = fs.readFileSync(filmsPagePath, "utf-8");
 
-    html = html.replaceAll("{{title}}", title);
+    html = html.replace("{{title}}", title);
     html = html.replace("{{categoryLinks}}", categoryLinks);
     html = html.replace("{{content}}", content);
 
     res.end(html);
   } else if (req.url.startsWith("/films/category")) {
     const category = req.url.split("/")[3];
-
-    const data = await getAllFilms();
-    const films = data.films;
-
     const categorizedFilms = films.filter((film) => film.category === category);
 
     res.writeHead(200, { "Content-Type": "text/html" });
@@ -141,17 +140,13 @@ const server = http.createServer(async (req, res) => {
 
     let html = fs.readFileSync(filmsPagePath, "utf-8");
 
-    html = html.replaceAll("{{title}}", title);
+    html = html.replace("{{title}}", title);
     html = html.replace("{{categoryLinks}}", categoryLinks);
     html = html.replace("{{content}}", content);
 
     res.end(html);
   } else if (req.url.startsWith("/films/")) {
     const id = req.url.split("/")[2];
-
-    const data = await getAllFilms();
-    const films = data.films;
-
     const film = films.find((film) => film.id.toString() === id);
 
     if (film) {
@@ -174,12 +169,13 @@ const server = http.createServer(async (req, res) => {
         "film-detail.html",
       );
       let html = fs.readFileSync(filmDetailsPath, "utf-8");
-      html = html.replaceAll("{{title}}", title);
-      html = html.replaceAll("{{content}}", content);
+      html = html.replace("{{title}}", title);
+      html = html.replace("{{content}}", content);
       res.end(html);
     } else {
       res.writeHead(404, { "Content-Type": "text/html" });
       const notFoundPagePath = path.join(__dirname, "templates", "404.html");
+      logMessage("ERROR", "Film bulunamadı...");
       let html = fs.readFileSync(notFoundPagePath, "utf-8");
       res.end(html);
     }
@@ -189,24 +185,6 @@ const server = http.createServer(async (req, res) => {
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(json);
   } else if (req.url === "/api/stats") {
-    const data = await getAllFilms();
-    const films = data.films;
-
-    let watchedCount = 0;
-    let notWatchedCount = 0;
-    let totalRating = 0;
-
-    for (let film of films) {
-      totalRating += film.rating;
-      if (film.watched) {
-        watchedCount++;
-      } else {
-        notWatchedCount++;
-      }
-    }
-
-    let averageRating = (totalRating / films.length).toFixed(1);
-
     const categories = films.map((film) => film.category);
     let lookup = {};
     for (let cat of categories) {
@@ -215,7 +193,7 @@ const server = http.createServer(async (req, res) => {
 
     let statistics = {
       stats: {
-        totalFilms: films.length,
+        totalFilms: totalfilmCount,
         watchedFilms: watchedCount,
         notWatchedFilmes: notWatchedCount,
         averageRating: averageRating,
@@ -225,40 +203,53 @@ const server = http.createServer(async (req, res) => {
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(JSON.stringify(statistics));
   } else if (req.url === "/reports/export") {
-    const data = await getAllFilms();
-    const films = data.films;
     res.writeHead(200, { "Content-Type": "text/html" });
 
-    const reportPath = path.join(__dirname, "reports", "films-export.txt");
-    const writeStream = fs.createWriteStream(reportPath);
-    writeStream.write("=== Film Arşivi Raporu ===\n");
-    writeStream.write(`Oluşturulma: ${new Date().toLocaleString("sv-SE")}\n`);
-    writeStream.write(`Toplam: ${films.length} film\n`);
-    writeStream.write("================================\n\n");
+    try {
+      const reportPath = path.join(__dirname, "reports", "films-export.txt");
+      const writeStream = fs.createWriteStream(reportPath);
 
-    films.forEach((film) => {
-      writeStream.write(`${film.id}. ${film.title} (${film.year})\n`);
-      writeStream.write(`   Yönetmen: ${film.director}\n`);
-      writeStream.write(
-        `   Kategori: ${film.category} | Puan: ${film.rating}\n`,
-      );
-      writeStream.write(
-        `   Durum: ${film.watched ? "✓ İzlendi" : "✗ İzlenmedi"}\n\n`,
-      );
-    });
+      writeStream.on("error", (err) => {
+        logMessage("ERROR", "Rapor yazılırken hata oluştu");
+        console.error("Rapor yazılırken hata oluştu:", err);
+        res.end("<p>Report creation failed.</p>");
+      });
 
-    eventBus.emit("reportGenerated", "films-export.txt");
+      writeStream.write("=== Film Arşivi Raporu ===\n");
+      writeStream.write(`Oluşturulma: ${new Date().toLocaleString("sv-SE")}\n`);
+      writeStream.write(`Toplam: ${films.length} film\n`);
+      writeStream.write("================================\n\n");
 
-    res.end("<p>Report is created successfully in reports folder.</p>");
+      films.forEach((film) => {
+        writeStream.write(`${film.id}. ${film.title} (${film.year})\n`);
+        writeStream.write(`   Yönetmen: ${film.director}\n`);
+        writeStream.write(
+          `   Kategori: ${film.category} | Puan: ${film.rating}\n`,
+        );
+        writeStream.write(
+          `   Durum: ${film.watched ? "✓ İzlendi" : "✗ İzlenmedi"}\n\n`,
+        );
+      });
+
+      writeStream.end(() => {
+        eventBus.emit("reportGenerated", "films-export.txt");
+        res.end("<p>Report is created successfully in reports folder.</p>");
+      });
+    } catch (err) {
+      logMessage("ERROR", "Beklenmedik hata oluştu");
+      console.error("Beklenmedik hata:", err);
+      res.end("<p>Unexpected error occurred.</p>");
+    }
   } else {
     res.writeHead(404, { "Content-Type": "text/html" });
     const notFoundPagePath = path.join(__dirname, "templates", "404.html");
+    logMessage("ERROR", "Sayfa bulunamadı...");
     let html = fs.readFileSync(notFoundPagePath, "utf-8");
     res.end(html);
   }
 });
 
-server.listen(3000, async () => {
-  await logMessage("INFO", "Server started on port 3000");
+server.listen(3000, () => {
+  logMessage("INFO", "Server started on port 3000");
   console.log(`Server running on port 3000`);
 });

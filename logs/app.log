@@ -1505,3 +1505,488 @@
 [2026-07-09 14:00:29] INFO: Server started on port 3000
 [2026-07-09 14:00:32] INFO: GET /reports/export
 [2026-07-09 14:00:32] EVENT: reportGenerated - File: films-export.txt
+[2026-07-09 15:26:00] INFO: Server started on port 3000
+[2026-07-09 15:29:25] INFO: Server started on port 3000
+[2026-07-09 15:31:13] INFO: Server started on port 3000
+[2026-07-09 15:31:22] INFO: Server started on port 3000
+[2026-07-09 15:31:26] INFO: Server started on port 3000
+[2026-07-09 15:31:28] INFO: GET /
+[2026-07-09 15:31:30] INFO: GET /
+[2026-07-09 15:31:31] INFO: GET /films
+[2026-07-09 15:31:31] INFO: GET /api/films
+[2026-07-09 15:31:34] INFO: GET /films/category/sci-fi
+[2026-07-09 15:31:35] INFO: GET /films/category/thriller
+[2026-07-09 15:31:45] INFO: GET /reports/export
+[2026-07-09 15:31:45] EVENT: reportGenerated - File: films-export.txt
+[2026-07-09 15:39:35] INFO: GET /films
+[2026-07-09 15:39:36] INFO: GET /films/category/sci-fi
+[2026-07-09 15:39:38] INFO: GET /films
+[2026-07-09 15:39:42] INFO: GET /films/category/action
+[2026-07-09 15:39:46] INFO: GET /
+[2026-07-09 15:39:46] INFO: GET /films
+[2026-07-09 15:39:47] INFO: GET /api/films
+[2026-07-09 15:39:49] INFO: GET /api/stats
+[2026-07-09 15:39:54] INFO: GET /reports/export
+[2026-07-09 15:39:54] EVENT: reportGenerated - File: films-export.txt
+[2026-07-09 15:39:59] INFO: GET /films
+[2026-07-09 15:40:00] INFO: GET /films/category/sci-fi
+[2026-07-09 15:40:01] INFO: GET /films/category/crime
+[2026-07-09 15:40:01] INFO: GET /films/category/thriller
+[2026-07-09 15:40:02] INFO: GET /films/category/drama
+[2026-07-09 15:40:02] INFO: GET /films/category/action
+[2026-07-09 15:40:06] INFO: GET /films/9
+[2026-07-09 15:40:06] EVENT: filmViewed - Film: The Dark Knight
+[2026-07-09 15:40:09] INFO: GET /
+[2026-07-09 15:40:10] INFO: GET /films
+[2026-07-09 15:40:11] INFO: GET /api/films
+[2026-07-09 15:40:31] INFO: GET /
+[2026-07-09 15:40:32] INFO: GET /films
+[2026-07-09 15:40:34] INFO: GET /api/films
+[2026-07-09 15:47:17] INFO: GET /films/category/sci-fi
+[2026-07-09 15:47:18] INFO: GET /films/category/crime
+[2026-07-09 15:47:19] INFO: GET /films/category/thriller
+[2026-07-09 15:47:19] INFO: GET /films/category/drama
+[2026-07-09 15:47:20] INFO: GET /films/category/action
+[2026-07-09 15:47:21] INFO: GET /films
+[2026-07-09 15:51:30] INFO: GET /films
+[2026-07-09 15:51:30] INFO: GET /films/category/sci-fi
+[2026-07-09 15:51:31] INFO: GET /films/category/crime
+[2026-07-09 15:51:32] INFO: GET /films/category/thriller
+[2026-07-09 15:51:32] INFO: GET /films/category/drama
+[2026-07-09 15:51:33] INFO: GET /films/category/action
+[2026-07-09 15:51:38] INFO: GET /
+[2026-07-09 15:51:39] INFO: GET /films
+[2026-07-09 15:51:39] INFO: GET /api/films
+[2026-07-09 15:51:43] INFO: GET /api/stats
+[2026-07-09 15:51:47] INFO: GET /reports/export
+[2026-07-09 15:51:47] EVENT: reportGenerated - File: films-export.txt
+[2026-07-09 15:52:13] INFO: GET /films/10
+[2026-07-09 15:52:13] EVENT: filmViewed - Film: Forrest Gump
+[2026-07-09 15:52:19] INFO: GET /
+[2026-07-09 15:52:20] INFO: GET /films
+[2026-07-09 15:52:43] INFO: GET /films/category/sci-fi
+[2026-07-09 15:52:44] INFO: GET /films/category/crime
+[2026-07-09 15:52:44] INFO: GET /films/category/thriller
+[2026-07-09 15:52:45] INFO: GET /films/category/drama
+[2026-07-09 15:52:45] INFO: GET /films/category/action
+[2026-07-09 15:52:46] INFO: GET /films
+[2026-07-10 09:02:37] INFO: Server started on port 3000
+[2026-07-10 09:02:42] INFO: GET /
+[2026-07-10 09:02:42] INFO: GET /favicon.ico
+[2026-07-10 09:02:44] INFO: GET /
+[2026-07-10 09:02:44] INFO: GET /films
+[2026-07-10 09:02:45] INFO: GET /api/films
+[2026-07-10 09:02:47] INFO: GET /api/stats
+[2026-07-10 09:02:49] INFO: GET /reports/export
+[2026-07-10 09:02:49] EVENT: reportGenerated - File: films-export.txt
+[2026-07-10 09:03:17] INFO: GET /films
+[2026-07-10 09:03:18] INFO: GET /films/category/sci-fi
+[2026-07-10 09:03:19] INFO: GET /films/category/crime
+[2026-07-10 09:03:20] INFO: GET /films/category/thriller
+[2026-07-10 09:03:20] INFO: GET /films/category/drama
+[2026-07-10 09:03:21] INFO: GET /films/category/action
+[2026-07-10 09:03:22] INFO: GET /
+[2026-07-10 09:03:23] INFO: GET /films
+[2026-07-10 09:03:24] INFO: GET /api/films
+[2026-07-10 09:03:25] INFO: GET /api/stats
+[2026-07-10 09:03:27] INFO: GET /reports/export
+[2026-07-10 09:03:27] EVENT: reportGenerated - File: films-export.txt
+[2026-07-10 09:03:31] INFO: GET /films/1
+[2026-07-10 09:03:31] EVENT: filmViewed - Film: Inception
+[2026-07-10 09:07:59] INFO: Server started on port 3000
+[2026-07-10 09:08:05] INFO: Server started on port 3000
+[2026-07-10 09:08:11] INFO: GET /films
+[2026-07-10 09:08:12] INFO: GET /films/category/sci-fi
+[2026-07-10 09:08:13] INFO: GET /
+[2026-07-10 09:08:13] INFO: GET /films
+[2026-07-10 09:10:41] INFO: Server started on port 3000
+[2026-07-10 09:24:37] INFO: Server started on port 3000
+[2026-07-10 09:25:31] INFO: Server started on port 3000
+[2026-07-10 09:27:33] INFO: Server started on port 3000
+[2026-07-10 09:27:45] INFO: Server started on port 3000
+[2026-07-10 09:27:48] INFO: GET /films
+[2026-07-10 09:28:06] INFO: Server started on port 3000
+[2026-07-10 09:28:17] INFO: Server started on port 3000
+[2026-07-10 09:28:19] INFO: GET /films
+[2026-07-10 09:28:27] INFO: Server started on port 3000
+[2026-07-10 09:28:51] INFO: Server started on port 3000
+[2026-07-10 09:29:01] INFO: GET /films
+[2026-07-10 09:30:57] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:31:01] INFO: GET /films
+[2026-07-10 09:31:01] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:31:02] INFO: GET /films
+[2026-07-10 09:31:02] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:31:04] INFO: GET /films/category/sci-fi
+[2026-07-10 09:31:04] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:31:05] INFO: GET /films/category/crime
+[2026-07-10 09:31:06] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:31:07] INFO: GET /films/category/thriller
+[2026-07-10 09:31:07] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:31:08] INFO: GET /films/category/drama
+[2026-07-10 09:31:08] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:31:21] INFO: GET /films
+[2026-07-10 09:31:21] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:31:42] INFO: GET /
+[2026-07-10 09:32:14] INFO: Server started on port 3000
+[2026-07-10 09:32:16] INFO: GET /
+[2026-07-10 09:32:17] INFO: GET /
+[2026-07-10 09:32:18] INFO: GET /films
+[2026-07-10 09:32:19] INFO: GET /
+[2026-07-10 09:32:21] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:32:23] INFO: GET /
+[2026-07-10 09:32:23] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:32:27] INFO: GET /films
+[2026-07-10 09:32:28] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 09:32:45] INFO: GET /
+[2026-07-10 09:33:34] INFO: Server started on port 3000
+[2026-07-10 09:33:36] INFO: GET /
+[2026-07-10 09:33:37] INFO: GET /films
+[2026-07-10 09:33:52] INFO: Server started on port 3000
+[2026-07-10 09:33:56] INFO: GET /films/category/sci-fi
+[2026-07-10 09:33:57] INFO: GET /films/category/crime
+[2026-07-10 09:33:57] INFO: GET /films/category/thriller
+[2026-07-10 09:33:58] INFO: GET /films/category/drama
+[2026-07-10 09:33:58] INFO: GET /films/category/action
+[2026-07-10 09:34:13] INFO: Server started on port 3000
+[2026-07-10 09:34:17] INFO: GET /films/category/crime
+[2026-07-10 09:34:18] INFO: GET /films
+[2026-07-10 09:34:19] INFO: GET /films/1
+[2026-07-10 09:34:19] EVENT: filmViewed - Film: Inception
+[2026-07-10 09:34:21] INFO: GET /api/films
+[2026-07-10 09:34:23] INFO: GET /
+[2026-07-10 09:34:58] INFO: Server started on port 3000
+[2026-07-10 09:35:08] INFO: GET /api/stats
+[2026-07-10 09:35:21] INFO: Server started on port 3000
+[2026-07-10 09:38:56] INFO: Server started on port 3000
+[2026-07-10 09:38:58] INFO: GET /
+[2026-07-10 09:38:59] INFO: GET /reports/export
+[2026-07-10 09:38:59] EVENT: reportGenerated - File: films-export.txt
+[2026-07-10 09:39:35] INFO: Server started on port 3000
+[2026-07-10 09:40:48] INFO: Server started on port 3000
+[2026-07-10 09:40:53] INFO: GET /reports/exportlkj
+[2026-07-10 09:40:53] ERROR: Sayfa bulunamadı...
+[2026-07-10 09:41:14] INFO: GET /
+[2026-07-10 09:41:15] INFO: GET /
+[2026-07-10 09:41:16] INFO: GET /films
+[2026-07-10 09:41:16] INFO: GET /api/films
+[2026-07-10 09:41:18] INFO: GET /api/stats
+[2026-07-10 09:41:21] INFO: GET /
+[2026-07-10 09:41:24] INFO: GET /
+[2026-07-10 09:41:25] INFO: GET /films
+[2026-07-10 09:41:26] INFO: GET /api/films
+[2026-07-10 09:41:28] INFO: GET /api/stats
+[2026-07-10 09:41:29] INFO: GET /reports/export
+[2026-07-10 09:41:29] EVENT: reportGenerated - File: films-export.txt
+[2026-07-10 09:41:31] INFO: GET /films
+[2026-07-10 09:41:32] INFO: GET /films/category/sci-fi
+[2026-07-10 09:41:32] INFO: GET /films/category/crime
+[2026-07-10 09:41:33] INFO: GET /films/category/thriller
+[2026-07-10 09:41:33] INFO: GET /films/category/drama
+[2026-07-10 09:41:34] INFO: GET /films/category/action
+[2026-07-10 09:41:34] INFO: GET /
+[2026-07-10 09:43:35] INFO: Server started on port 3000
+[2026-07-10 09:43:37] INFO: GET /
+[2026-07-10 09:43:38] INFO: GET /
+[2026-07-10 09:43:39] INFO: GET /films
+[2026-07-10 09:43:40] INFO: GET /
+[2026-07-10 09:43:52] INFO: Server started on port 3000
+[2026-07-10 09:44:03] INFO: Server started on port 3000
+[2026-07-10 09:44:21] INFO: Server started on port 3000
+[2026-07-10 09:44:39] INFO: Server started on port 3000
+[2026-07-10 09:44:46] INFO: GET /
+[2026-07-10 09:44:46] INFO: GET /films
+[2026-07-10 09:44:47] INFO: GET /films
+[2026-07-10 09:44:48] INFO: GET /films/category/sci-fi
+[2026-07-10 09:44:48] INFO: GET /films/category/crime
+[2026-07-10 09:44:49] INFO: GET /films/category/thriller
+[2026-07-10 09:44:49] INFO: GET /films/category/drama
+[2026-07-10 09:44:49] INFO: GET /films/category/action
+[2026-07-10 09:44:50] INFO: GET /
+[2026-07-10 09:44:55] INFO: GET /films
+[2026-07-10 09:45:00] INFO: GET /
+[2026-07-10 09:45:25] INFO: Server started on port 3000
+[2026-07-10 09:46:46] INFO: Server started on port 3000
+[2026-07-10 09:47:03] INFO: Server started on port 3000
+[2026-07-10 09:49:52] INFO: Server started on port 3000
+[2026-07-10 09:49:58] INFO: GET /
+[2026-07-10 09:49:59] INFO: GET /films
+[2026-07-10 09:49:59] INFO: GET /
+[2026-07-10 09:50:35] INFO: Server started on port 3000
+[2026-07-10 09:50:41] INFO: GET /api/stats
+[2026-07-10 09:52:32] INFO: Server started on port 3000
+[2026-07-10 09:52:33] INFO: Server started on port 3000
+[2026-07-10 09:55:15] INFO: Server started on port 3000
+[2026-07-10 09:55:39] INFO: GET /
+[2026-07-10 09:55:40] INFO: GET /films
+[2026-07-10 09:55:41] INFO: GET /api/films
+[2026-07-10 09:55:45] INFO: GET /api/stats
+[2026-07-10 09:55:53] INFO: GET /
+[2026-07-10 09:55:56] INFO: GET /films
+[2026-07-10 09:55:58] INFO: GET /api/films
+[2026-07-10 09:56:03] INFO: GET /api/stats
+[2026-07-10 09:56:07] INFO: GET /reports/export
+[2026-07-10 09:56:07] EVENT: reportGenerated - File: films-export.txt
+[2026-07-10 09:56:14] INFO: GET /
+[2026-07-10 09:56:16] INFO: GET /films
+[2026-07-10 09:56:17] INFO: GET /films
+[2026-07-10 09:56:20] INFO: GET /films/category/sci-fi
+[2026-07-10 09:56:22] INFO: GET /films/category/crime
+[2026-07-10 09:56:23] INFO: GET /films/category/thriller
+[2026-07-10 09:56:24] INFO: GET /films/category/drama
+[2026-07-10 09:56:25] INFO: GET /films/category/action
+[2026-07-10 09:56:26] INFO: GET /films
+[2026-07-10 09:56:28] INFO: GET /films/1
+[2026-07-10 09:56:28] EVENT: filmViewed - Film: Inception
+[2026-07-10 09:56:33] INFO: GET /films/3
+[2026-07-10 09:56:33] EVENT: filmViewed - Film: Interstellar
+[2026-07-10 09:56:36] INFO: GET /films/8
+[2026-07-10 09:56:36] EVENT: filmViewed - Film: Fight Club
+[2026-07-10 09:56:42] INFO: GET /
+[2026-07-10 09:58:46] INFO: Server started on port 3000
+[2026-07-10 09:59:35] INFO: GET /
+[2026-07-10 10:00:15] INFO: GET /
+[2026-07-10 10:00:16] INFO: GET /asd
+[2026-07-10 10:00:16] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:00:21] INFO: GET /
+[2026-07-10 10:01:00] INFO: GET /
+[2026-07-10 10:01:01] INFO: GET /
+[2026-07-10 10:01:02] INFO: GET /films
+[2026-07-10 10:01:03] INFO: GET /
+[2026-07-10 10:01:15] INFO: GET /
+[2026-07-10 10:01:18] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:01:18] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:01:19] INFO: GET /
+[2026-07-10 10:01:19] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:01:19] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:01:19] INFO: GET /favicon.ico
+[2026-07-10 10:01:19] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:01:27] INFO: GET /favicon.ico
+[2026-07-10 10:01:27] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:01:29] INFO: GET /
+[2026-07-10 10:01:47] INFO: GET /
+[2026-07-10 10:01:48] INFO: GET /
+[2026-07-10 10:01:49] INFO: GET /films
+[2026-07-10 10:01:50] INFO: GET /
+[2026-07-10 10:01:51] INFO: GET /films
+[2026-07-10 10:01:51] INFO: GET /
+[2026-07-10 10:02:26] INFO: GET /
+[2026-07-10 10:02:27] INFO: GET /
+[2026-07-10 10:02:27] INFO: GET /
+[2026-07-10 10:02:28] INFO: GET /
+[2026-07-10 10:02:28] INFO: GET /
+[2026-07-10 10:02:44] INFO: GET /
+[2026-07-10 10:02:45] INFO: GET /
+[2026-07-10 10:02:55] INFO: GET /
+[2026-07-10 10:02:55] INFO: GET /
+[2026-07-10 10:02:56] INFO: GET /
+[2026-07-10 10:02:56] INFO: GET /
+[2026-07-10 10:02:56] INFO: GET /
+[2026-07-10 10:02:56] INFO: GET /
+[2026-07-10 10:02:56] INFO: GET /
+[2026-07-10 10:02:56] INFO: GET /
+[2026-07-10 10:02:57] INFO: GET /
+[2026-07-10 10:02:57] INFO: GET /
+[2026-07-10 10:02:57] INFO: GET /
+[2026-07-10 10:02:57] INFO: GET /
+[2026-07-10 10:02:57] INFO: GET /
+[2026-07-10 10:03:25] INFO: GET /
+[2026-07-10 10:03:26] INFO: GET /films
+[2026-07-10 10:03:26] INFO: GET /
+[2026-07-10 10:03:28] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:03:28] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:03:40] INFO: GET /
+[2026-07-10 10:03:40] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:03:40] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:03:53] INFO: GET /
+[2026-07-10 10:03:53] INFO: GET /
+[2026-07-10 10:03:54] INFO: GET /films
+[2026-07-10 10:03:55] INFO: GET /
+[2026-07-10 10:04:03] INFO: GET /films
+[2026-07-10 10:04:03] INFO: GET /api/films
+[2026-07-10 10:04:05] INFO: GET /
+[2026-07-10 10:04:06] INFO: GET /films
+[2026-07-10 10:04:06] INFO: GET /
+[2026-07-10 10:04:07] INFO: GET /films
+[2026-07-10 10:04:07] INFO: GET /api/films
+[2026-07-10 10:04:16] INFO: GET /films
+[2026-07-10 10:04:28] INFO: GET /films
+[2026-07-10 10:04:28] INFO: GET /films
+[2026-07-10 10:04:28] INFO: GET /films
+[2026-07-10 10:04:35] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:04:35] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:04:55] INFO: GET /films
+[2026-07-10 10:05:09] INFO: GET /films
+[2026-07-10 10:05:31] INFO: GET /
+[2026-07-10 10:05:46] INFO: GET /
+[2026-07-10 10:05:47] INFO: GET /
+[2026-07-10 10:05:47] INFO: GET /
+[2026-07-10 10:06:21] INFO: GET /
+[2026-07-10 10:06:27] INFO: GET /
+[2026-07-10 10:06:37] INFO: GET /
+[2026-07-10 10:06:38] INFO: GET /
+[2026-07-10 10:07:10] INFO: GET /
+[2026-07-10 10:07:22] INFO: GET /
+[2026-07-10 10:07:34] INFO: GET /
+[2026-07-10 10:08:12] INFO: GET /
+[2026-07-10 10:08:23] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:08:23] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:08:32] INFO: GET /
+[2026-07-10 10:08:57] INFO: GET /
+[2026-07-10 10:09:09] INFO: GET /
+[2026-07-10 10:09:15] INFO: GET /
+[2026-07-10 10:09:24] INFO: GET /
+[2026-07-10 10:09:37] INFO: GET /
+[2026-07-10 10:09:46] INFO: GET /
+[2026-07-10 10:09:57] INFO: GET /
+[2026-07-10 10:10:01] INFO: GET /
+[2026-07-10 10:10:01] INFO: GET /films
+[2026-07-10 10:10:03] INFO: GET /
+[2026-07-10 10:10:07] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:10:07] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:10:32] INFO: GET /
+[2026-07-10 10:10:59] INFO: GET /
+[2026-07-10 10:11:04] INFO: GET /
+[2026-07-10 10:11:20] INFO: GET /
+[2026-07-10 10:11:28] INFO: GET /
+[2026-07-10 10:11:41] INFO: GET /
+[2026-07-10 10:11:49] INFO: GET /
+[2026-07-10 10:11:54] INFO: GET /
+[2026-07-10 10:12:14] INFO: GET /
+[2026-07-10 10:12:23] INFO: GET /
+[2026-07-10 10:12:28] INFO: GET /
+[2026-07-10 10:12:39] INFO: GET /
+[2026-07-10 10:12:47] INFO: GET /
+[2026-07-10 10:13:03] INFO: GET /
+[2026-07-10 10:13:33] INFO: GET /
+[2026-07-10 10:13:42] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:13:42] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:15:17] INFO: GET /
+[2026-07-10 10:15:41] INFO: GET /
+[2026-07-10 10:15:49] INFO: GET /
+[2026-07-10 10:17:03] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:17:03] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:17:36] INFO: GET /
+[2026-07-10 10:17:36] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:17:36] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:18:09] INFO: GET /
+[2026-07-10 10:18:20] INFO: GET /
+[2026-07-10 10:18:37] INFO: GET /
+[2026-07-10 10:18:54] INFO: GET /
+[2026-07-10 10:18:59] INFO: GET /
+[2026-07-10 10:19:12] INFO: GET /
+[2026-07-10 10:19:18] INFO: GET /
+[2026-07-10 10:19:28] INFO: GET /
+[2026-07-10 10:19:36] INFO: GET /
+[2026-07-10 10:19:37] INFO: GET /
+[2026-07-10 10:19:41] INFO: GET /
+[2026-07-10 10:19:44] INFO: GET /
+[2026-07-10 10:19:48] INFO: GET /
+[2026-07-10 10:19:48] INFO: GET /
+[2026-07-10 10:20:03] INFO: GET /
+[2026-07-10 10:20:56] INFO: GET /
+[2026-07-10 10:20:56] INFO: GET /
+[2026-07-10 10:21:22] INFO: GET /
+[2026-07-10 10:21:33] INFO: GET /
+[2026-07-10 10:21:43] INFO: GET /
+[2026-07-10 10:21:45] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:21:45] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:22:07] INFO: GET /
+[2026-07-10 10:22:14] INFO: GET /
+[2026-07-10 10:22:26] INFO: GET /
+[2026-07-10 10:22:34] INFO: GET /
+[2026-07-10 10:22:41] INFO: GET /
+[2026-07-10 10:22:45] INFO: GET /
+[2026-07-10 10:23:09] INFO: GET /
+[2026-07-10 10:23:13] INFO: GET /
+[2026-07-10 10:23:15] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:23:15] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:23:27] INFO: GET /
+[2026-07-10 10:24:06] INFO: GET /
+[2026-07-10 10:24:26] INFO: GET /
+[2026-07-10 10:24:33] INFO: GET /
+[2026-07-10 10:24:41] INFO: GET /
+[2026-07-10 10:24:45] INFO: GET /
+[2026-07-10 10:24:54] INFO: GET /
+[2026-07-10 10:24:55] INFO: GET /
+[2026-07-10 10:25:05] INFO: GET /
+[2026-07-10 10:25:10] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:25:10] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:25:18] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:25:18] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:25:34] INFO: GET /
+[2026-07-10 10:25:34] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:25:34] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:25:49] INFO: GET /
+[2026-07-10 10:25:49] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:25:49] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:26:06] INFO: GET /
+[2026-07-10 10:26:06] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:26:06] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:26:32] INFO: GET /
+[2026-07-10 10:26:32] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:26:32] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:26:47] INFO: GET /
+[2026-07-10 10:26:47] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:26:47] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:27:16] INFO: GET /
+[2026-07-10 10:27:16] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:27:16] ERROR: Sayfa bulunamadı...
+[2026-07-10 10:27:25] INFO: GET /
+[2026-07-10 10:28:03] INFO: GET /
+[2026-07-10 10:28:19] INFO: GET /
+[2026-07-10 10:28:23] INFO: GET /
+[2026-07-10 10:28:28] INFO: GET /
+[2026-07-10 10:28:31] INFO: GET /
+[2026-07-10 10:28:36] INFO: GET /
+[2026-07-10 10:28:47] INFO: GET /
+[2026-07-10 10:28:57] INFO: GET /films
+[2026-07-10 10:28:58] INFO: GET /
+[2026-07-10 10:28:59] INFO: GET /films
+[2026-07-10 10:29:01] INFO: GET /
+[2026-07-10 10:29:12] INFO: GET /films
+[2026-07-10 10:30:03] INFO: GET /films
+[2026-07-10 10:30:11] INFO: GET /
+[2026-07-10 10:31:46] INFO: GET /films
+[2026-07-10 10:31:47] INFO: GET /
+[2026-07-10 10:31:48] INFO: GET /films
+[2026-07-10 10:31:49] INFO: GET /
+[2026-07-10 10:31:49] INFO: GET /films
+[2026-07-10 10:31:50] INFO: GET /
+[2026-07-10 10:31:51] INFO: GET /films
+[2026-07-10 10:31:52] INFO: GET /
+[2026-07-10 10:31:52] INFO: GET /films
+[2026-07-10 10:31:52] INFO: GET /
+[2026-07-10 10:31:52] INFO: GET /films
+[2026-07-10 10:31:53] INFO: GET /
+[2026-07-10 10:31:54] INFO: GET /films
+[2026-07-10 10:32:10] INFO: GET /films
+[2026-07-10 10:32:27] INFO: GET /
+[2026-07-10 10:32:27] INFO: GET /films
+[2026-07-10 10:32:28] INFO: GET /
+[2026-07-10 10:32:29] INFO: GET /films
+[2026-07-10 10:32:30] INFO: GET /
+[2026-07-10 10:32:30] INFO: GET /films
+[2026-07-10 10:33:07] INFO: GET /films
+[2026-07-10 10:33:12] INFO: GET /films
+[2026-07-10 10:46:57] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-10 10:46:57] ERROR: Sayfa bulunamadı...
+[2026-07-11 14:12:11] INFO: Server started on port 3000
+[2026-07-11 14:12:16] INFO: GET /
+[2026-07-11 14:12:17] INFO: GET /favicon.ico
+[2026-07-11 14:12:17] ERROR: Sayfa bulunamadı...
+[2026-07-11 14:12:18] INFO: GET /
+[2026-07-11 14:12:19] INFO: GET /films
+[2026-07-11 14:12:21] INFO: GET /api/films
+[2026-07-11 14:21:02] INFO: GET /films/6
+[2026-07-11 14:21:02] EVENT: filmViewed - Film: Pulp Fiction
+[2026-07-11 14:21:05] INFO: GET /
+[2026-07-11 14:21:06] INFO: GET /films
+[2026-07-11 14:21:07] INFO: GET /
+[2026-07-11 14:21:09] INFO: GET /films
+[2026-07-11 14:21:11] INFO: GET /
+[2026-07-11 14:21:13] INFO: GET /reports/export
+[2026-07-11 14:21:13] EVENT: reportGenerated - File: films-export.txt
+[2026-07-11 14:21:16] INFO: GET /
+[2026-07-11 14:21:18] INFO: GET /films
+[2026-07-11 14:21:19] INFO: GET /api/films
+[2026-07-11 14:21:21] INFO: GET /api/films
