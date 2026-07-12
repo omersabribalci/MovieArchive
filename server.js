@@ -12,7 +12,7 @@ const {
   renderFilmsList,
   renderCategoryLinks,
 } = require("./modules/fileManager.cjs");
-const { logMessage } = require("./modules/logger.mjs");
+const { logMessage, logInfo, logError } = require("./modules/logger.mjs");
 
 eventBus.on("filmViewed", (title) => {
   logMessage("EVENT", `filmViewed - Film: ${title}`);
@@ -27,7 +27,7 @@ const server = http.createServer(async (req, res) => {
     const parsedUrl = new URL(req.url, `http://${req.headers.host}`);
     const pathName = parsedUrl.pathname;
 
-    logMessage("INFO", `${req.method} ${req.url}`);
+    logInfo(`${req.method} ${req.url}`);
 
     if (pathName === "/") {
       const data = await getAllFilms();
@@ -41,7 +41,7 @@ const server = http.createServer(async (req, res) => {
         lastAddedList,
       } = getFilmIstatistics(films);
 
-      res.writeHead(200, { "Content-Type": "text/html" });
+      res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
 
       const homePagePath = path.join(__dirname, "templates", "home.html");
       const title = "Film Arşivi Yönetimi";
@@ -60,7 +60,7 @@ const server = http.createServer(async (req, res) => {
       const data = await getAllFilms();
       const films = data.films;
 
-      res.writeHead(200, { "Content-Type": "text/html" });
+      res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
 
       const filmsPagePath = path.join(__dirname, "templates", "films.html");
       const title = "Filmler";
@@ -84,7 +84,7 @@ const server = http.createServer(async (req, res) => {
         (film) => film.category === category,
       );
 
-      res.writeHead(200, { "Content-Type": "text/html" });
+      res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
 
       const filmsPagePath = path.join(__dirname, "templates", "films.html");
       const title = "Filmler";
@@ -107,7 +107,7 @@ const server = http.createServer(async (req, res) => {
       const film = films.find((film) => film.id.toString() === id);
 
       if (film) {
-        res.writeHead(200, { "Content-Type": "text/html" });
+        res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
 
         eventBus.emit("filmViewed", film.title);
         let title = film.title;
@@ -126,13 +126,12 @@ const server = http.createServer(async (req, res) => {
           "film-detail.html",
         );
         let html = await fs.readFile(filmDetailsPath, "utf-8");
-        html = html.replace("{{title}}", title);
         html = html.replace("{{content}}", content);
         res.end(html);
       } else {
         res.writeHead(404, { "Content-Type": "text/html" });
         const notFoundPagePath = path.join(__dirname, "templates", "404.html");
-        logMessage("ERROR", "Film bulunamadı...");
+        logError("Film bulunamadı...");
         let html = await fs.readFile(notFoundPagePath, "utf-8");
         res.end(html);
       }
@@ -156,7 +155,7 @@ const server = http.createServer(async (req, res) => {
         stats: {
           totalFilms: totalfilmCount,
           watchedFilms: watchedCount,
-          notWatchedFilmes: notWatchedCount,
+          notWatchedFilms: notWatchedCount,
           averageRating: averageRating,
           categories: categoryBased,
         },
@@ -173,7 +172,7 @@ const server = http.createServer(async (req, res) => {
       const writeStream = fss.createWriteStream(reportPath);
 
       writeStream.on("error", (err) => {
-        logMessage("ERROR", "Rapor yazılırken hata oluştu");
+        logError("Rapor yazılırken hata oluştu");
         console.error("Rapor yazılırken hata oluştu:", err);
         if (!res.headersSent) res.end("<p>Rapor oluşturulamadı.</p>");
       });
@@ -201,13 +200,13 @@ const server = http.createServer(async (req, res) => {
     } else {
       res.writeHead(404, { "Content-Type": "text/html; charset=utf-8" });
       const notFoundPagePath = path.join(__dirname, "templates", "404.html");
-      logMessage("ERROR", "Sayfa bulunamadı...");
+      logError("Sayfa bulunamadı...");
       let html = await fs.readFile(notFoundPagePath, "utf-8");
       res.end(html);
     }
-  } catch (error) {
-    logMessage("ERROR", `Sunucu Hatası: ${error.message}`);
-    console.error("Kritik Sunucu Hatası:", error);
+  } catch (err) {
+    logError(`Sunucu Hatası: ${err.message}`);
+    console.error("Kritik Sunucu Hatası:", err);
 
     if (!res.headersSent) {
       res.writeHead(500, { "Content-Type": "text/plain; charset=utf-8" });
@@ -217,6 +216,6 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(3000, () => {
-  logMessage("INFO", "Server started on port 3000");
+  logInfo("Server started on port 3000");
   console.log(`Server running on port 3000`);
 });

@@ -19,4 +19,8 @@ const logMessage = async (logName, message) => {
   }
 };
 
-export { logMessage };
+const logInfo = (message) => logMessage("INFO", message);
+const logWarn = (message) => logMessage("WARN", message);
+const logError = (message) => logMessage("ERROR", message);
+
+export { logMessage, logInfo, logWarn, logError };

@@ -2192,3 +2192,252 @@
 [2026-07-12 16:11:55] ERROR: Sayfa bulunamadı...
 [2026-07-12 16:11:58] INFO: GET /
 [2026-07-12 16:13:34] INFO: Server started on port 3000
+[2026-07-12 16:17:03] INFO: Server started on port 3000
+[2026-07-12 16:17:03] INFO: Server started on port 3000
+[2026-07-12 16:17:35] INFO: GET /
+[2026-07-12 16:17:35] INFO: GET /style.css
+[2026-07-12 16:17:36] INFO: GET /
+[2026-07-12 16:17:36] INFO: GET /style.css
+[2026-07-12 16:17:37] INFO: GET /films
+[2026-07-12 16:17:37] INFO: GET /style.css
+[2026-07-12 16:17:38] INFO: GET /api/films
+[2026-07-12 16:17:40] INFO: GET /
+[2026-07-12 16:17:40] INFO: GET /style.css
+[2026-07-12 16:17:43] INFO: GET /films
+[2026-07-12 16:17:43] INFO: GET /style.css
+[2026-07-12 16:17:44] INFO: GET /films
+[2026-07-12 16:17:44] INFO: GET /style.css
+[2026-07-12 16:17:46] INFO: GET /films/1
+[2026-07-12 16:17:46] EVENT: filmViewed - Film: Inception
+[2026-07-12 16:17:46] INFO: GET /style.css
+[2026-07-12 16:17:51] INFO: Server started on port 3000
+[2026-07-12 16:19:51] INFO: GET /
+[2026-07-12 16:19:54] INFO: GET /
+[2026-07-12 16:19:55] INFO: GET /films
+[2026-07-12 16:19:59] INFO: GET /api/films
+[2026-07-12 16:20:01] INFO: GET /api/stats
+[2026-07-12 16:20:02] INFO: GET /reports/export
+[2026-07-12 16:20:02] EVENT: reportGenerated - File: films-export.txt
+[2026-07-12 16:20:04] INFO: GET /films/category/action
+[2026-07-12 16:20:05] INFO: GET /films/category/drama
+[2026-07-12 16:20:06] INFO: GET /films/category/action
+[2026-07-12 16:20:07] INFO: GET /films/category/drama
+[2026-07-12 16:20:08] INFO: GET /films/category/thriller
+[2026-07-12 16:20:08] INFO: GET /films/category/crime
+[2026-07-12 16:20:09] INFO: GET /films/category/sci-fi
+[2026-07-12 16:20:10] INFO: GET /films/category/thriller
+[2026-07-12 16:20:10] INFO: GET /films/category/drama
+[2026-07-12 16:20:10] INFO: GET /films/category/action
+[2026-07-12 16:20:12] INFO: GET /films
+[2026-07-12 16:20:13] INFO: GET /
+[2026-07-12 16:20:15] INFO: GET /films
+[2026-07-12 16:28:59] INFO: Server started on port 3000
+[2026-07-12 16:29:02] INFO: GET /
+[2026-07-12 16:29:05] INFO: GET /
+[2026-07-12 16:29:06] INFO: GET /films
+[2026-07-12 16:29:10] INFO: GET /api/films
+[2026-07-12 16:29:13] INFO: GET /api/stats
+[2026-07-12 16:29:14] INFO: GET /reports/export
+[2026-07-12 16:29:14] EVENT: reportGenerated - File: films-export.txt
+[2026-07-12 16:29:17] INFO: GET /
+[2026-07-12 16:29:19] INFO: GET /films
+[2026-07-12 16:29:21] INFO: GET /
+[2026-07-12 16:29:21] INFO: GET /films
+[2026-07-12 16:29:22] INFO: GET /films/category/sci-fi
+[2026-07-12 16:29:22] INFO: GET /films/category/crime
+[2026-07-12 16:29:23] INFO: GET /films/category/thriller
+[2026-07-12 16:29:23] INFO: GET /films/category/drama
+[2026-07-12 16:29:24] INFO: GET /films/category/action
+[2026-07-12 16:29:24] INFO: GET /films
+[2026-07-12 16:29:25] INFO: GET /films/category/sci-fi
+[2026-07-12 16:29:25] INFO: GET /films/category/crime
+[2026-07-12 16:29:25] INFO: GET /films/category/thriller
+[2026-07-12 16:29:26] INFO: GET /films/category/drama
+[2026-07-12 16:29:26] INFO: GET /films/category/action
+[2026-07-12 16:29:27] INFO: GET /films/9
+[2026-07-12 16:29:27] EVENT: filmViewed - Film: The Dark Knight
+[2026-07-12 16:29:31] INFO: GET /api/films
+[2026-07-12 16:29:33] INFO: GET /
+[2026-07-12 16:29:35] INFO: GET /films
+[2026-07-12 16:29:37] INFO: GET /
+[2026-07-12 16:29:38] INFO: GET /films
+[2026-07-12 16:29:46] INFO: GET /films/1
+[2026-07-12 16:29:46] EVENT: filmViewed - Film: Inception
+[2026-07-12 16:29:49] INFO: GET /films/1
+[2026-07-12 16:29:49] EVENT: filmViewed - Film: Inception
+[2026-07-12 16:29:51] INFO: GET /
+[2026-07-12 16:29:52] INFO: GET /films
+[2026-07-12 16:29:53] INFO: GET /
+[2026-07-12 16:29:57] INFO: GET /films
+[2026-07-12 16:31:37] INFO: GET /
+[2026-07-12 16:31:38] INFO: GET /
+[2026-07-12 16:31:39] INFO: GET /films
+[2026-07-12 16:31:45] INFO: GET /films/1
+[2026-07-12 16:31:45] EVENT: filmViewed - Film: Inception
+[2026-07-12 16:31:55] INFO: GET /films
+[2026-07-12 16:31:56] INFO: GET /films/category/action
+[2026-07-12 16:31:57] INFO: GET /
+[2026-07-12 16:31:58] INFO: GET /films
+[2026-07-12 16:31:59] INFO: GET /
+[2026-07-12 16:31:59] INFO: GET /films
+[2026-07-12 16:32:05] INFO: GET /films
+[2026-07-12 16:32:05] INFO: GET /films/category/sci-fi
+[2026-07-12 16:32:05] INFO: GET /films/category/crime
+[2026-07-12 16:32:06] INFO: GET /films/category/thriller
+[2026-07-12 16:32:06] INFO: GET /films/category/drama
+[2026-07-12 16:32:06] INFO: GET /films/category/action
+[2026-07-12 16:32:07] INFO: GET /
+[2026-07-12 16:32:11] INFO: GET /films
+[2026-07-12 16:32:12] INFO: GET /
+[2026-07-12 16:32:17] INFO: GET /films
+[2026-07-12 16:32:20] INFO: GET /films/1
+[2026-07-12 16:32:20] EVENT: filmViewed - Film: Inception
+[2026-07-12 16:32:56] INFO: GET /
+[2026-07-12 16:33:09] INFO: GET /films
+[2026-07-12 16:33:25] INFO: GET /films
+[2026-07-12 16:33:29] INFO: GET /films
+[2026-07-12 16:33:29] INFO: GET /films/category/sci-fi
+[2026-07-12 16:33:30] INFO: GET /films/category/crime
+[2026-07-12 16:33:31] INFO: GET /films/category/thriller
+[2026-07-12 16:33:31] INFO: GET /films/category/drama
+[2026-07-12 16:33:32] INFO: GET /films/category/action
+[2026-07-12 16:33:33] INFO: GET /films/category/drama
+[2026-07-12 16:33:33] INFO: GET /films/category/action
+[2026-07-12 16:33:34] INFO: GET /films/category/drama
+[2026-07-12 16:33:35] INFO: GET /films/category/action
+[2026-07-12 16:33:36] INFO: GET /films/category/thriller
+[2026-07-12 16:33:36] INFO: GET /films/category/drama
+[2026-07-12 16:33:37] INFO: GET /films/category/sci-fi
+[2026-07-12 16:33:37] INFO: GET /films/category/sci-fi
+[2026-07-12 16:33:38] INFO: GET /films
+[2026-07-12 16:34:10] INFO: GET /films/1
+[2026-07-12 16:34:10] EVENT: filmViewed - Film: Inception
+[2026-07-12 16:34:13] INFO: GET /
+[2026-07-12 16:34:42] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 16:34:42] ERROR: Sayfa bulunamadı...
+[2026-07-12 16:35:43] INFO: GET /
+[2026-07-12 16:35:44] INFO: GET /films
+[2026-07-12 16:35:50] INFO: GET /api/stats
+[2026-07-12 16:35:51] INFO: GET /api/films
+[2026-07-12 16:35:54] INFO: GET /films
+[2026-07-12 16:35:55] INFO: GET /
+[2026-07-12 16:35:55] INFO: GET /films
+[2026-07-12 16:36:00] INFO: GET /films
+[2026-07-12 16:36:01] INFO: GET /films/category/sci-fi
+[2026-07-12 16:36:02] INFO: GET /films/category/thriller
+[2026-07-12 16:36:02] INFO: GET /films/category/drama
+[2026-07-12 16:36:02] INFO: GET /films/category/action
+[2026-07-12 16:36:03] INFO: GET /films
+[2026-07-12 16:36:04] INFO: GET /films/category/sci-fi
+[2026-07-12 16:36:08] INFO: GET /films/category/sci-fi
+[2026-07-12 16:36:08] INFO: GET /films
+[2026-07-12 16:38:01] INFO: GET /films
+[2026-07-12 16:38:02] INFO: GET /
+[2026-07-12 16:38:03] INFO: GET /films
+[2026-07-12 16:38:05] INFO: GET /films/category/sci-fi
+[2026-07-12 16:38:07] INFO: GET /films/category/crime
+[2026-07-12 16:38:08] INFO: GET /films
+[2026-07-12 16:38:09] INFO: GET /films/category/thriller
+[2026-07-12 16:38:09] INFO: GET /films/category/drama
+[2026-07-12 16:38:10] INFO: GET /films/category/action
+[2026-07-12 16:38:11] INFO: GET /films
+[2026-07-12 16:38:14] INFO: GET /films/category/sci-fi
+[2026-07-12 16:38:14] INFO: GET /films/category/crime
+[2026-07-12 16:38:15] INFO: GET /films/category/thriller
+[2026-07-12 16:38:15] INFO: GET /films/category/drama
+[2026-07-12 16:38:15] INFO: GET /films/category/action
+[2026-07-12 16:38:17] INFO: GET /films/category/drama
+[2026-07-12 16:38:18] INFO: GET /films/category/thriller
+[2026-07-12 16:38:19] INFO: GET /films/category/crime
+[2026-07-12 16:38:19] INFO: GET /films/category/sci-fi
+[2026-07-12 16:38:20] INFO: GET /films
+[2026-07-12 16:38:21] INFO: GET /
+[2026-07-12 16:38:23] INFO: GET /films
+[2026-07-12 16:38:23] INFO: GET /
+[2026-07-12 16:38:27] INFO: GET /films
+[2026-07-12 16:38:30] INFO: GET /films/category/sci-fi
+[2026-07-12 16:38:30] INFO: GET /films/category/crime
+[2026-07-12 16:38:30] INFO: GET /films/category/thriller
+[2026-07-12 16:38:31] INFO: GET /films/category/drama
+[2026-07-12 16:38:31] INFO: GET /films/category/action
+[2026-07-12 16:38:32] INFO: GET /films
+[2026-07-12 16:38:41] INFO: GET /films/category/sci-fi
+[2026-07-12 16:38:42] INFO: GET /films/category/crime
+[2026-07-12 16:38:43] INFO: GET /films/category/thriller
+[2026-07-12 16:38:43] INFO: GET /films/category/drama
+[2026-07-12 16:38:44] INFO: GET /films/category/action
+[2026-07-12 16:38:45] INFO: GET /films/category/sci-fi
+[2026-07-12 16:38:46] INFO: GET /films/category/crime
+[2026-07-12 16:38:46] INFO: GET /films/category/thriller
+[2026-07-12 16:38:46] INFO: GET /films/category/drama
+[2026-07-12 16:38:47] INFO: GET /films/category/action
+[2026-07-12 16:38:47] INFO: GET /films
+[2026-07-12 16:38:48] INFO: GET /films/category/sci-fi
+[2026-07-12 16:38:48] INFO: GET /films/category/crime
+[2026-07-12 16:38:48] INFO: GET /films/category/thriller
+[2026-07-12 16:38:48] INFO: GET /films/category/drama
+[2026-07-12 16:38:49] INFO: GET /films/category/action
+[2026-07-12 16:38:50] INFO: GET /films
+[2026-07-12 16:38:51] INFO: GET /api/films
+[2026-07-12 16:38:53] INFO: GET /api/stats
+[2026-07-12 16:38:54] INFO: GET /reports/export
+[2026-07-12 16:38:54] EVENT: reportGenerated - File: films-export.txt
+[2026-07-12 16:39:01] INFO: GET /reports/export
+[2026-07-12 16:39:01] EVENT: reportGenerated - File: films-export.txt
+[2026-07-12 16:39:06] INFO: GET /films/category/sci-fi
+[2026-07-12 16:39:07] INFO: GET /films/category/crime
+[2026-07-12 16:39:07] INFO: GET /films/category/thriller
+[2026-07-12 16:39:07] INFO: GET /films/category/drama
+[2026-07-12 16:39:08] INFO: GET /films/category/action
+[2026-07-12 16:39:08] INFO: GET /films/category/crime
+[2026-07-12 16:39:10] INFO: GET /films/category/sci-fi
+[2026-07-12 16:39:10] INFO: GET /films
+[2026-07-12 16:39:11] INFO: GET /
+[2026-07-12 16:41:04] INFO: GET /
+[2026-07-12 16:41:05] INFO: GET /films
+[2026-07-12 16:41:06] INFO: GET /
+[2026-07-12 16:41:07] INFO: GET /films
+[2026-07-12 16:41:09] INFO: GET /
+[2026-07-12 16:41:09] INFO: GET /films
+[2026-07-12 16:41:11] INFO: GET /
+[2026-07-12 16:43:40] INFO: Server started on port 3000
+[2026-07-12 16:44:59] INFO: GET /films
+[2026-07-12 16:44:59] INFO: GET /films/2
+[2026-07-12 16:44:59] EVENT: filmViewed - Film: The Matrix
+[2026-07-12 16:45:07] INFO: Server started on port 3000
+[2026-07-12 16:46:53] INFO: Server started on port 3000
+[2026-07-12 16:48:22] INFO: Server started on port 3000
+[2026-07-12 16:48:47] INFO: Server started on port 3000
+[2026-07-12 16:49:56] INFO: Server started on port 3000
+[2026-07-12 16:50:35] INFO: GET /
+[2026-07-12 16:50:36] INFO: GET /films
+[2026-07-12 16:50:37] INFO: GET /api/films
+[2026-07-12 16:50:38] INFO: GET /api/stats
+[2026-07-12 16:50:42] INFO: GET /reports/export
+[2026-07-12 16:50:42] EVENT: reportGenerated - File: films-export.txt
+[2026-07-12 16:50:44] INFO: GET /
+[2026-07-12 16:50:46] INFO: GET /films
+[2026-07-12 16:50:46] INFO: GET /films
+[2026-07-12 16:50:47] INFO: GET /films/category/sci-fi
+[2026-07-12 16:50:47] INFO: GET /films/category/crime
+[2026-07-12 16:50:48] INFO: GET /films/category/thriller
+[2026-07-12 16:50:48] INFO: GET /films/category/drama
+[2026-07-12 16:50:48] INFO: GET /films/category/action
+[2026-07-12 16:50:50] INFO: GET /films
+[2026-07-12 16:50:52] INFO: GET /films/category/action
+[2026-07-12 16:50:53] INFO: GET /films/category/sci-fi
+[2026-07-12 16:50:54] INFO: GET /films
+[2026-07-12 16:50:57] INFO: GET /films/category/sci-fi
+[2026-07-12 16:50:57] INFO: GET /films/category/crime
+[2026-07-12 16:50:57] INFO: GET /films/category/thriller
+[2026-07-12 16:50:57] INFO: GET /films/category/drama
+[2026-07-12 16:50:57] INFO: GET /films/category/action
+[2026-07-12 16:50:58] INFO: GET /films
+[2026-07-12 16:50:58] INFO: GET /films
+[2026-07-12 16:50:59] INFO: GET /
+[2026-07-12 16:51:01] INFO: GET /films
+[2026-07-12 16:51:07] INFO: GET /films/category/crime
+[2026-07-12 16:51:07] INFO: GET /films/category/thriller
+[2026-07-12 16:51:08] INFO: GET /films/category/drama
+[2026-07-12 16:51:08] INFO: GET /films
+[2026-07-12 16:51:09] INFO: GET /films
