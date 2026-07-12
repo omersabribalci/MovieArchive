@@ -37,7 +37,9 @@
       white-space: nowrap;
       font-size: 0.9rem;
       font-weight: 600;
-      transition: background-color 0.2s, transform 0.15s;
+      transition:
+        background-color 0.2s,
+        transform 0.15s;
     }
     header a:hover {
       background-color: #d35400;
@@ -147,7 +149,9 @@
       padding: 0;
       text-align: center;
       box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
       overflow: hidden;
       display: flex;
       flex-direction: column;
@@ -231,6 +235,18 @@
         <ul class="select-cat">
           {{categoryLinks}}
         </ul>
+        <div>
+          <form action="/films/search">
+            <label for="q">Film adı:</label>
+            <input type="text" name="q" id="q" required />
+          </form>
+          <form action="/films">
+            <label for="sort">En yüksek ratinge göre sırala</label>
+            <button type="submit" id="sort" name="sort" value="rating">
+              ⬆️
+            </button>
+          </form>
+        </div>
       </div>
 
       <div class="film-wrapper">{{content}}</div>

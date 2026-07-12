@@ -2441,3 +2441,430 @@
 [2026-07-12 16:51:08] INFO: GET /films/category/drama
 [2026-07-12 16:51:08] INFO: GET /films
 [2026-07-12 16:51:09] INFO: GET /films
+[2026-07-12 16:52:20] INFO: GET /
+[2026-07-12 16:52:20] INFO: GET /films
+[2026-07-12 16:52:22] INFO: GET /films/category/sci-fi
+[2026-07-12 16:52:22] INFO: GET /
+[2026-07-12 16:53:52] INFO: GET /films
+[2026-07-12 16:53:53] INFO: GET /films/2
+[2026-07-12 16:53:53] EVENT: filmViewed - Film: The Matrix
+[2026-07-12 16:53:55] INFO: GET /films/22
+[2026-07-12 16:53:55] ERROR: Film bulunamadı...
+[2026-07-12 16:53:58] INFO: GET /
+[2026-07-12 16:54:00] INFO: GET /asd
+[2026-07-12 16:54:00] ERROR: Sayfa bulunamadı...
+[2026-07-12 16:54:03] INFO: GET /reports/export
+[2026-07-12 16:54:03] EVENT: reportGenerated - File: films-export.txt
+[2026-07-12 18:17:00] INFO: GET /
+[2026-07-12 18:17:02] INFO: GET /
+[2026-07-12 18:17:02] INFO: GET /films
+[2026-07-12 18:17:05] INFO: GET /
+[2026-07-12 18:17:14] INFO: GET /films
+[2026-07-12 18:17:28] INFO: GET /films/category/sci-fi
+[2026-07-12 18:17:28] INFO: GET /films/category/crime
+[2026-07-12 18:17:28] INFO: GET /films/category/thriller
+[2026-07-12 18:17:29] INFO: GET /films/category/drama
+[2026-07-12 18:17:29] INFO: GET /films/category/action
+[2026-07-12 18:17:30] INFO: GET /films
+[2026-07-12 18:17:48] INFO: GET /films/category/sci-fi
+[2026-07-12 18:17:48] INFO: GET /films/category/crime
+[2026-07-12 18:17:49] INFO: GET /films/category/thriller
+[2026-07-12 18:17:50] INFO: GET /films
+[2026-07-12 18:19:01] INFO: GET /films
+[2026-07-12 18:23:53] INFO: GET /films
+[2026-07-12 18:25:11] INFO: GET /films
+[2026-07-12 18:27:10] INFO: GET /films
+[2026-07-12 18:27:11] INFO: GET /search?
+[2026-07-12 18:27:11] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:27:31] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:27:31] INFO: GET /search?
+[2026-07-12 18:27:42] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:27:42] INFO: GET /search?
+[2026-07-12 18:27:43] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:27:43] INFO: GET /search?
+[2026-07-12 18:27:45] INFO: GET /films
+[2026-07-12 18:27:46] INFO: GET /films/search?
+[2026-07-12 18:27:46] ERROR: Film bulunamadı...
+[2026-07-12 18:28:07] INFO: GET /films/search?
+[2026-07-12 18:28:07] ERROR: Film bulunamadı...
+[2026-07-12 18:28:33] INFO: GET /films/search?
+[2026-07-12 18:28:33] ERROR: Film bulunamadı...
+[2026-07-12 18:28:35] INFO: GET /films
+[2026-07-12 18:28:37] INFO: GET /films/search?q=asd
+[2026-07-12 18:28:37] ERROR: Film bulunamadı...
+[2026-07-12 18:30:13] INFO: GET /films/search?q=asd
+[2026-07-12 18:30:13] ERROR: Film bulunamadı...
+[2026-07-12 18:30:17] INFO: GET /films
+[2026-07-12 18:30:19] INFO: POST /films/search
+[2026-07-12 18:30:19] ERROR: Film bulunamadı...
+[2026-07-12 18:30:25] INFO: POST /films/search
+[2026-07-12 18:30:25] ERROR: Film bulunamadı...
+[2026-07-12 18:30:27] INFO: GET /films
+[2026-07-12 18:30:30] INFO: GET /films/search?q=asd
+[2026-07-12 18:30:30] ERROR: Film bulunamadı...
+[2026-07-12 18:30:44] INFO: GET /films/search?q=asd
+[2026-07-12 18:30:44] ERROR: Film bulunamadı...
+[2026-07-12 18:31:53] INFO: Server started on port 3000
+[2026-07-12 18:31:53] INFO: Server started on port 3000
+[2026-07-12 18:32:47] INFO: Server started on port 3000
+[2026-07-12 18:33:01] INFO: Server started on port 3000
+[2026-07-12 18:33:04] INFO: GET /films/search?q=asd
+[2026-07-12 18:33:04] ERROR: Film bulunamadı...
+[2026-07-12 18:33:09] INFO: GET /films
+[2026-07-12 18:33:11] INFO: GET /films/search?q=asd
+[2026-07-12 18:33:11] ERROR: Film bulunamadı...
+[2026-07-12 18:33:20] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:33:20] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:33:23] INFO: GET /films/search?q=asd
+[2026-07-12 18:33:23] ERROR: Film bulunamadı...
+[2026-07-12 18:33:23] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:33:23] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:33:24] INFO: GET /
+[2026-07-12 18:33:24] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:33:24] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:33:25] INFO: GET /films
+[2026-07-12 18:33:25] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:33:25] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:33:26] INFO: GET /
+[2026-07-12 18:33:26] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:33:26] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:33:26] INFO: GET /
+[2026-07-12 18:33:26] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:33:26] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:33:27] INFO: GET /
+[2026-07-12 18:33:27] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:33:27] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:33:27] INFO: GET /
+[2026-07-12 18:33:27] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:33:27] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:33:27] INFO: GET /films
+[2026-07-12 18:33:27] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:33:27] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:33:29] INFO: GET /films/search?q=asdasd
+[2026-07-12 18:33:29] ERROR: Film bulunamadı...
+[2026-07-12 18:33:30] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:33:30] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:34:15] INFO: Server started on port 3000
+[2026-07-12 18:34:17] INFO: GET /films/search?q=asdasd
+[2026-07-12 18:34:17] ERROR: Film bulunamadı...
+[2026-07-12 18:34:17] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:34:17] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:34:19] INFO: GET /films/search?q=asdasd
+[2026-07-12 18:34:19] ERROR: Film bulunamadı...
+[2026-07-12 18:34:19] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:34:19] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:34:19] INFO: GET /films/search?q=asdasd
+[2026-07-12 18:34:19] ERROR: Film bulunamadı...
+[2026-07-12 18:34:19] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:34:19] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:34:20] INFO: GET /
+[2026-07-12 18:34:20] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:34:20] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:34:21] INFO: GET /
+[2026-07-12 18:34:21] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:34:21] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:34:22] INFO: GET /films
+[2026-07-12 18:34:22] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:34:22] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:34:23] INFO: GET /films/search?q=asd
+[2026-07-12 18:34:23] ERROR: Film bulunamadı...
+[2026-07-12 18:34:23] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:34:23] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:34:34] INFO: Server started on port 3000
+[2026-07-12 18:34:36] INFO: GET /
+[2026-07-12 18:34:39] INFO: GET /films
+[2026-07-12 18:34:42] INFO: GET /films/search?q=asd
+[2026-07-12 18:34:42] ERROR: Film bulunamadı...
+[2026-07-12 18:34:57] INFO: Server started on port 3000
+[2026-07-12 18:35:02] INFO: GET /
+[2026-07-12 18:35:04] INFO: GET /
+[2026-07-12 18:35:04] INFO: GET /films
+[2026-07-12 18:35:06] INFO: GET /films/search?q=asd
+[2026-07-12 18:35:06] ERROR: Film bulunamadı...
+[2026-07-12 18:35:17] INFO: Server started on port 3000
+[2026-07-12 18:35:20] INFO: GET /films/search?q=asd
+[2026-07-12 18:35:20] ERROR: Film bulunamadı...
+[2026-07-12 18:35:21] INFO: GET /
+[2026-07-12 18:35:22] INFO: GET /
+[2026-07-12 18:35:22] INFO: GET /
+[2026-07-12 18:35:23] INFO: GET /
+[2026-07-12 18:35:24] INFO: GET /
+[2026-07-12 18:35:33] INFO: GET /films
+[2026-07-12 18:35:38] INFO: Server started on port 3000
+[2026-07-12 18:35:50] INFO: Server started on port 3000
+[2026-07-12 18:35:54] INFO: GET /films
+[2026-07-12 18:35:55] INFO: GET /films/search?q=asd
+[2026-07-12 18:35:55] ERROR: Film bulunamadı...
+[2026-07-12 18:36:11] INFO: Server started on port 3000
+[2026-07-12 18:36:13] INFO: GET /
+[2026-07-12 18:36:14] INFO: GET /
+[2026-07-12 18:36:14] INFO: GET /films
+[2026-07-12 18:36:15] INFO: GET /films/search?q=asd
+[2026-07-12 18:36:15] ERROR: Film bulunamadı...
+[2026-07-12 18:36:32] INFO: Server started on port 3000
+[2026-07-12 18:36:34] INFO: GET /
+[2026-07-12 18:36:36] INFO: GET /
+[2026-07-12 18:36:37] INFO: GET /films
+[2026-07-12 18:36:39] INFO: GET /films/search?q=asd
+[2026-07-12 18:36:39] ERROR: Film bulunamadı...
+[2026-07-12 18:36:56] INFO: Server started on port 3000
+[2026-07-12 18:37:26] INFO: Server started on port 3000
+[2026-07-12 18:37:29] INFO: GET /
+[2026-07-12 18:37:30] INFO: GET /
+[2026-07-12 18:37:31] INFO: GET /films
+[2026-07-12 18:37:32] INFO: GET /films/search?q=asd
+[2026-07-12 18:37:32] ERROR: Film bulunamadı...
+[2026-07-12 18:37:40] INFO: Server started on port 3000
+[2026-07-12 18:37:43] INFO: GET /films/search?q=asd
+[2026-07-12 18:37:43] ERROR: Film bulunamadı...
+[2026-07-12 18:37:43] INFO: GET /
+[2026-07-12 18:37:44] INFO: GET /films
+[2026-07-12 18:37:45] INFO: GET /films/search?q=asd
+[2026-07-12 18:37:45] ERROR: Film bulunamadı...
+[2026-07-12 18:39:35] INFO: Server started on port 3000
+[2026-07-12 18:39:38] INFO: GET /
+[2026-07-12 18:39:39] INFO: GET /
+[2026-07-12 18:39:55] INFO: GET /films
+[2026-07-12 18:40:03] INFO: GET /films/search?q=asd
+[2026-07-12 18:40:03] ERROR: Film bulunamadı...
+[2026-07-12 18:41:15] INFO: Server started on port 3000
+[2026-07-12 18:41:16] INFO: GET /
+[2026-07-12 18:41:17] INFO: GET /
+[2026-07-12 18:41:21] INFO: GET /films
+[2026-07-12 18:41:23] INFO: GET /films/search?q=asd
+[2026-07-12 18:41:23] ERROR: Film bulunamadı...
+[2026-07-12 18:41:44] INFO: Server started on port 3000
+[2026-07-12 18:41:47] INFO: GET /
+[2026-07-12 18:41:48] INFO: GET /
+[2026-07-12 18:41:48] INFO: GET /films
+[2026-07-12 18:41:49] INFO: GET /films/search?q=asd
+[2026-07-12 18:41:49] ERROR: Film bulunamadı...
+[2026-07-12 18:41:56] INFO: Server started on port 3000
+[2026-07-12 18:41:58] INFO: GET /films/search?q=asd
+[2026-07-12 18:41:58] ERROR: Film bulunamadı...
+[2026-07-12 18:42:00] INFO: GET /
+[2026-07-12 18:42:01] INFO: GET /
+[2026-07-12 18:42:06] INFO: GET /films
+[2026-07-12 18:42:08] INFO: GET /films/search?q=123456
+[2026-07-12 18:42:08] ERROR: Film bulunamadı...
+[2026-07-12 18:42:18] INFO: Server started on port 3000
+[2026-07-12 18:42:21] INFO: GET /films/search?q=123456
+[2026-07-12 18:42:21] ERROR: Film bulunamadı...
+[2026-07-12 18:43:17] INFO: Server started on port 3000
+[2026-07-12 18:43:19] INFO: GET /films/search?q=123456
+[2026-07-12 18:43:19] ERROR: Film bulunamadı...
+[2026-07-12 18:44:09] INFO: Server started on port 3000
+[2026-07-12 18:44:11] INFO: GET /films/search?q=123456
+[2026-07-12 18:44:11] ERROR: Film bulunamadı...
+[2026-07-12 18:44:21] INFO: Server started on port 3000
+[2026-07-12 18:44:25] INFO: GET /films
+[2026-07-12 18:44:26] INFO: GET /films
+[2026-07-12 18:44:26] INFO: GET /films
+[2026-07-12 18:44:27] INFO: GET /films
+[2026-07-12 18:44:27] INFO: GET /films/category/sci-fi
+[2026-07-12 18:44:27] INFO: GET /films/category/crime
+[2026-07-12 18:44:28] INFO: GET /films/category/thriller
+[2026-07-12 18:44:28] INFO: GET /films/category/drama
+[2026-07-12 18:44:28] INFO: GET /films/category/action
+[2026-07-12 18:44:29] INFO: GET /films
+[2026-07-12 18:44:30] INFO: GET /films/search?q=asd
+[2026-07-12 18:44:30] ERROR: Film bulunamadı...
+[2026-07-12 18:45:15] INFO: Server started on port 3000
+[2026-07-12 18:45:16] INFO: GET /films/search?q=asd
+[2026-07-12 18:45:16] ERROR: Film bulunamadı...
+[2026-07-12 18:45:17] INFO: GET /
+[2026-07-12 18:45:18] INFO: GET /films
+[2026-07-12 18:45:19] INFO: GET /films/search?q=asd
+[2026-07-12 18:45:19] ERROR: Film bulunamadı...
+[2026-07-12 18:45:22] INFO: Server started on port 3000
+[2026-07-12 18:45:27] INFO: GET /films/search?q=asd
+[2026-07-12 18:45:28] ERROR: Film bulunamadı...
+[2026-07-12 18:45:29] INFO: GET /
+[2026-07-12 18:45:30] INFO: GET /
+[2026-07-12 18:45:31] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:45:31] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:45:32] INFO: GET /
+[2026-07-12 18:45:32] INFO: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-07-12 18:45:32] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:45:32] INFO: GET /favicon.ico
+[2026-07-12 18:45:32] ERROR: Sayfa bulunamadı...
+[2026-07-12 18:45:37] INFO: Server started on port 3000
+[2026-07-12 18:45:39] INFO: GET /
+[2026-07-12 18:45:40] INFO: GET /films
+[2026-07-12 18:45:40] INFO: GET /films/search?q=asd
+[2026-07-12 18:45:40] ERROR: Film bulunamadı...
+[2026-07-12 18:45:49] INFO: Server started on port 3000
+[2026-07-12 18:46:28] INFO: Server started on port 3000
+[2026-07-12 18:47:04] INFO: Server started on port 3000
+[2026-07-12 18:47:11] INFO: Server started on port 3000
+[2026-07-12 18:47:14] INFO: GET /films/search?q=asd
+[2026-07-12 18:47:25] INFO: Server started on port 3000
+[2026-07-12 18:47:26] INFO: GET /films/search?q=asd
+[2026-07-12 18:47:27] INFO: GET /films/search?q=asd
+[2026-07-12 18:47:31] INFO: GET /
+[2026-07-12 18:47:32] INFO: GET /films
+[2026-07-12 18:47:34] INFO: GET /films/search?q=asd
+[2026-07-12 18:47:51] INFO: Server started on port 3000
+[2026-07-12 18:47:53] INFO: Server started on port 3000
+[2026-07-12 18:47:56] INFO: GET /films/search?q=asd
+[2026-07-12 18:48:00] INFO: GET /
+[2026-07-12 18:48:02] INFO: GET /films
+[2026-07-12 18:49:08] INFO: Server started on port 3000
+[2026-07-12 18:50:50] INFO: Server started on port 3000
+[2026-07-12 18:51:24] INFO: Server started on port 3000
+[2026-07-12 18:52:18] INFO: Server started on port 3000
+[2026-07-12 18:52:52] INFO: Server started on port 3000
+[2026-07-12 18:53:03] INFO: Server started on port 3000
+[2026-07-12 18:53:06] INFO: GET /films/search?q=asd
+[2026-07-12 18:53:21] INFO: GET /films/search?q=matriz
+[2026-07-12 18:53:26] INFO: GET /films/search?q=matrix
+[2026-07-12 18:54:02] INFO: GET /films/search?q=23
+[2026-07-12 18:54:04] INFO: GET /films/category/crime
+[2026-07-12 18:54:06] INFO: GET /films
+[2026-07-12 18:55:14] INFO: Server started on port 3000
+[2026-07-12 18:55:18] INFO: Server started on port 3000
+[2026-07-12 18:55:20] INFO: GET /films/search?q=asd
+[2026-07-12 18:55:20] ERROR: Sunucu Hatası: q is not defined
+[2026-07-12 18:55:24] INFO: GET /films
+[2026-07-12 18:55:25] INFO: GET /films/search?q=asd
+[2026-07-12 18:55:25] ERROR: Sunucu Hatası: q is not defined
+[2026-07-12 18:55:33] INFO: Server started on port 3000
+[2026-07-12 18:55:35] INFO: GET /films/search?q=asd
+[2026-07-12 18:55:52] INFO: Server started on port 3000
+[2026-07-12 18:55:54] INFO: GET /films/search?q=sad
+[2026-07-12 18:55:55] INFO: GET /films/search?q=sad
+[2026-07-12 18:55:56] INFO: GET /films/search?q=asd
+[2026-07-12 18:56:19] INFO: Server started on port 3000
+[2026-07-12 18:59:26] INFO: Server started on port 3000
+[2026-07-12 18:59:35] INFO: Server started on port 3000
+[2026-07-12 18:59:37] INFO: GET /films/search?q=asd
+[2026-07-12 18:59:42] INFO: GET /films/search?q=matr
+[2026-07-12 18:59:45] INFO: GET /films/search?q=a
+[2026-07-12 18:59:50] INFO: Server started on port 3000
+[2026-07-12 18:59:55] INFO: Server started on port 3000
+[2026-07-12 19:00:00] INFO: Server started on port 3000
+[2026-07-12 19:00:03] INFO: GET /films/search?q=a
+[2026-07-12 19:00:06] INFO: GET /films/search?q=matrix
+[2026-07-12 19:00:08] INFO: GET /films
+[2026-07-12 19:00:12] INFO: GET /films/search?q=incep
+[2026-07-12 19:00:16] INFO: GET /films/search?q=mat
+[2026-07-12 19:00:24] INFO: GET /films/search?q=IncEpTion
+[2026-07-12 19:00:26] INFO: GET /films
+[2026-07-12 19:00:31] INFO: GET /films/search?q=gump
+[2026-07-12 19:00:37] INFO: GET /films/search?q=++++++
+[2026-07-12 19:00:38] INFO: GET /films
+[2026-07-12 19:01:46] INFO: GET /films/2
+[2026-07-12 19:01:46] EVENT: filmViewed - Film: The Matrix
+[2026-07-12 19:01:51] INFO: GET /films
+[2026-07-12 19:01:52] INFO: GET /
+[2026-07-12 19:01:53] INFO: GET /films
+[2026-07-12 19:02:38] INFO: Server started on port 3000
+[2026-07-12 19:05:39] INFO: GET /films
+[2026-07-12 19:06:27] INFO: GET /films
+[2026-07-12 19:07:19] INFO: GET /films
+[2026-07-12 19:07:37] INFO: GET /films
+[2026-07-12 19:07:52] INFO: GET /films
+[2026-07-12 19:09:29] INFO: GET /films
+[2026-07-12 19:09:43] INFO: GET /films
+[2026-07-12 19:09:43] INFO: GET /films/sort?sort=
+[2026-07-12 19:09:43] ERROR: Film bulunamadı...
+[2026-07-12 19:10:14] INFO: GET /
+[2026-07-12 19:10:15] INFO: GET /
+[2026-07-12 19:10:15] INFO: GET /films
+[2026-07-12 19:10:16] INFO: GET /films/sort?
+[2026-07-12 19:10:16] ERROR: Film bulunamadı...
+[2026-07-12 19:10:44] INFO: GET /films
+[2026-07-12 19:10:45] INFO: GET /films?sort=
+[2026-07-12 19:10:49] INFO: GET /films?sort=
+[2026-07-12 19:10:50] INFO: GET /films?sort=
+[2026-07-12 19:10:50] INFO: GET /films
+[2026-07-12 19:10:51] INFO: GET /
+[2026-07-12 19:10:52] INFO: GET /
+[2026-07-12 19:10:52] INFO: GET /films
+[2026-07-12 19:10:53] INFO: GET /films?sort=
+[2026-07-12 19:11:40] INFO: GET /films?sort=
+[2026-07-12 19:11:41] INFO: GET /films?sort=
+[2026-07-12 19:11:50] INFO: GET /films?sort=
+[2026-07-12 19:12:35] INFO: GET /films?sort=
+[2026-07-12 19:12:36] INFO: GET /films?sort=rating
+[2026-07-12 19:14:00] INFO: Server started on port 3000
+[2026-07-12 19:14:16] INFO: Server started on port 3000
+[2026-07-12 19:14:18] INFO: GET /films?sort=rating
+[2026-07-12 19:14:59] INFO: Server started on port 3000
+[2026-07-12 19:17:53] INFO: Server started on port 3000
+[2026-07-12 19:17:55] INFO: GET /films
+[2026-07-12 19:17:56] INFO: GET /films
+[2026-07-12 19:18:00] INFO: GET /films?sort=rating
+[2026-07-12 19:18:24] INFO: Server started on port 3000
+[2026-07-12 19:18:26] INFO: GET /films?sort=rating
+[2026-07-12 19:18:27] INFO: GET /
+[2026-07-12 19:18:28] INFO: GET /
+[2026-07-12 19:18:28] INFO: GET /films
+[2026-07-12 19:18:29] INFO: GET /films?sort=rating
+[2026-07-12 19:19:01] INFO: Server started on port 3000
+[2026-07-12 19:19:03] INFO: GET /films?sort=rating
+[2026-07-12 19:19:32] INFO: Server started on port 3000
+[2026-07-12 19:19:34] INFO: GET /films?sort=rating
+[2026-07-12 19:19:37] INFO: GET /films
+[2026-07-12 19:19:37] INFO: GET /films/category/sci-fi
+[2026-07-12 19:19:37] INFO: GET /films
+[2026-07-12 19:19:39] INFO: GET /films?sort=rating
+[2026-07-12 19:20:41] INFO: Server started on port 3000
+[2026-07-12 19:20:43] INFO: GET /films?sort=rating
+[2026-07-12 19:20:44] INFO: GET /films?sort=rating
+[2026-07-12 19:20:52] INFO: Server started on port 3000
+[2026-07-12 19:22:54] INFO: Server started on port 3000
+[2026-07-12 19:23:10] INFO: Server started on port 3000
+[2026-07-12 19:23:12] INFO: GET /films?sort=rating
+[2026-07-12 19:23:13] INFO: GET /
+[2026-07-12 19:23:14] INFO: GET /films
+[2026-07-12 19:23:15] INFO: GET /films?sort=rating
+[2026-07-12 19:26:27] INFO: Server started on port 3000
+[2026-07-12 19:26:28] INFO: GET /films?sort=rating
+[2026-07-12 19:26:29] INFO: GET /films
+[2026-07-12 19:26:30] INFO: GET /films
+[2026-07-12 19:26:30] INFO: GET /films/category/sci-fi
+[2026-07-12 19:26:31] INFO: GET /films/category/crime
+[2026-07-12 19:26:31] INFO: GET /films/category/thriller
+[2026-07-12 19:26:32] INFO: GET /films/category/drama
+[2026-07-12 19:26:32] INFO: GET /films/category/action
+[2026-07-12 19:26:32] INFO: GET /films
+[2026-07-12 19:26:33] INFO: GET /films
+[2026-07-12 19:26:33] INFO: GET /films/category/sci-fi
+[2026-07-12 19:26:34] INFO: GET /films/category/sci-fi
+[2026-07-12 19:26:34] INFO: GET /films
+[2026-07-12 19:26:35] INFO: GET /films?sort=rating
+[2026-07-12 19:26:42] INFO: GET /films?sort=rating
+[2026-07-12 19:26:42] INFO: GET /films?sort=rating
+[2026-07-12 19:26:52] INFO: GET /films?sort=rating
+[2026-07-12 19:26:53] INFO: GET /films?sort=rating
+[2026-07-12 19:26:57] INFO: GET /films
+[2026-07-12 19:26:58] INFO: GET /films?sort=rating
+[2026-07-12 19:26:59] INFO: GET /films
+[2026-07-12 19:27:01] INFO: GET /films/category/sci-fi
+[2026-07-12 19:27:02] INFO: GET /films?sort=rating
+[2026-07-12 19:27:03] INFO: GET /films/category/thriller
+[2026-07-12 19:27:05] INFO: GET /films
+[2026-07-12 19:27:05] INFO: GET /films?sort=rating
+[2026-07-12 19:27:07] INFO: GET /films/category/thriller
+[2026-07-12 19:27:20] INFO: GET /films/category/drama
+[2026-07-12 19:27:20] INFO: GET /films/category/thriller
+[2026-07-12 19:27:21] INFO: GET /films?sort=rating
+[2026-07-12 19:27:26] INFO: GET /films/category/thriller
+[2026-07-12 19:27:43] INFO: GET /films
+[2026-07-12 19:27:50] INFO: GET /films?sort=rating
+[2026-07-12 19:27:52] INFO: GET /films/category/crime
+[2026-07-12 19:27:54] INFO: GET /films/search?q=asd
+[2026-07-12 19:27:56] INFO: GET /films
+[2026-07-12 19:28:06] INFO: GET /films
+[2026-07-12 19:28:45] INFO: GET /reports/export
+[2026-07-12 19:28:45] EVENT: reportGenerated - File: films-export.txt
+[2026-07-12 19:28:50] INFO: GET /api/stats
+[2026-07-12 19:28:53] INFO: GET /api/films
+[2026-07-12 19:29:02] INFO: GET /api/films
+[2026-07-12 19:29:02] INFO: GET /favicon.ico
+[2026-07-12 19:29:02] ERROR: Sayfa bulunamadı...
+[2026-07-12 19:29:24] INFO: GET /api/films
+[2026-07-12 19:29:25] INFO: GET /api/films
+[2026-07-12 19:30:10] INFO: GET /api/films
+[2026-07-12 19:30:35] INFO: GET /api/stats

@@ -57,8 +57,13 @@ const server = http.createServer(async (req, res) => {
 
       res.end(html);
     } else if (pathName === "/films") {
+      const sortParam = parsedUrl.searchParams.get("sort");
       const data = await getAllFilms();
       const films = data.films;
+
+      if (sortParam === "rating") {
+        films.sort((a, b) => b.rating - a.rating);
+      }
 
       res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
 
@@ -67,6 +72,30 @@ const server = http.createServer(async (req, res) => {
 
       const { categoryLinks } = renderCategoryLinks(films);
       const { content } = renderFilmsList(films);
+
+      let html = await fs.readFile(filmsPagePath, "utf-8");
+
+      html = html.replace("{{title}}", title);
+      html = html.replace("{{categoryLinks}}", categoryLinks);
+      html = html.replace("{{content}}", content);
+
+      res.end(html);
+    } else if (pathName === "/films/search") {
+      const data = await getAllFilms();
+      const films = data.films;
+
+      const query = parsedUrl.searchParams.get("q");
+
+      const searchedFilm = films.filter((film) =>
+        film.title.toLowerCase().includes(query.toLowerCase()),
+      );
+
+      res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
+
+      const filmsPagePath = path.join(__dirname, "templates", "films.html");
+      const title = "Filmler";
+      const { categoryLinks } = renderCategoryLinks(films);
+      const { content } = renderFilmsList(searchedFilm);
 
       let html = await fs.readFile(filmsPagePath, "utf-8");
 

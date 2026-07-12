@@ -62,7 +62,7 @@ const renderFilmsList = (filmsToRender) => {
             <img />
             <div>${film.title}</div>
             <div>${film.year}</div>
-            <div>${film.rating}</div>
+            <div>${film.rating.toFixed(1)}</div>
             <a href="/films/${film.id}"> Film detayına git ➡️</a>
         </div>
     `,
