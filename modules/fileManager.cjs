@@ -13,7 +13,7 @@ const getAllFilms = async () => {
   }
 };
 
-const getFilmIstatistics = (films) => {
+const getFilmsIstatistics = (films) => {
   const totalfilmCount = films.length;
   let watchedCount = 0;
   let notWatchedCount = 0;
@@ -60,9 +60,10 @@ const renderFilmsList = (filmsToRender) => {
       (film) => `
         <div class="film">
             <img />
-            <div>${film.title}</div>
-            <div>${film.year}</div>
-            <div>${film.rating.toFixed(1)}</div>
+            <div class="film-info">
+                <div class="film-title">${film.title} <span class="film-year">(${film.year})</span></div>
+                <div class="film-rating">⭐ ${film.rating.toFixed(1)}</div>
+            </div>
             <a href="/films/${film.id}"> Film detayına git ➡️</a>
         </div>
     `,
@@ -86,7 +87,7 @@ const renderCategoryLinks = (films) => {
 
 module.exports = {
   getAllFilms,
-  getFilmIstatistics,
+  getFilmsIstatistics,
   renderFilmsList,
   renderCategoryLinks,
 };

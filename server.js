@@ -8,7 +8,7 @@ const fss = require("node:fs"); // stream için
 const eventBus = require("./modules/eventBus.cjs");
 const {
   getAllFilms,
-  getFilmIstatistics,
+  getFilmsIstatistics,
   renderFilmsList,
   renderCategoryLinks,
 } = require("./modules/fileManager.cjs");
@@ -39,7 +39,7 @@ const server = http.createServer(async (req, res) => {
         notWatchedCount,
         averageRating,
         lastAddedList,
-      } = getFilmIstatistics(films);
+      } = getFilmsIstatistics(films);
 
       res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
 
@@ -84,7 +84,7 @@ const server = http.createServer(async (req, res) => {
       const data = await getAllFilms();
       const films = data.films;
 
-      const query = parsedUrl.searchParams.get("q");
+      const query = parsedUrl.searchParams.get("q") || "";
 
       const searchedFilm = films.filter((film) =>
         film.title.toLowerCase().includes(query.toLowerCase()),
@@ -178,7 +178,7 @@ const server = http.createServer(async (req, res) => {
         notWatchedCount,
         averageRating,
         categoryBased,
-      } = getFilmIstatistics(films);
+      } = getFilmsIstatistics(films);
 
       let statistics = {
         stats: {
@@ -222,9 +222,15 @@ const server = http.createServer(async (req, res) => {
         );
       });
 
-      writeStream.end(() => {
+      writeStream.end(async () => {
         eventBus.emit("reportGenerated", "films-export.txt");
-        res.end("<p>Rapor reports klasörüne başarıyla oluşturuldu.</p>");
+        const successPagePath = path.join(__dirname, "templates", "report-success.html");
+        try {
+          const html = await fs.readFile(successPagePath, "utf-8");
+          res.end(html);
+        } catch (err) {
+          res.end("<p>Rapor oluşturuldu fakat başarı sayfası şablonu yüklenirken bir hata oluştu.</p>");
+        }
       });
     } else {
       res.writeHead(404, { "Content-Type": "text/html; charset=utf-8" });
